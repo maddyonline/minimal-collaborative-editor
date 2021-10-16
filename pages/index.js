@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 import Tiptap from '../components/Tiptap'
+import MyStories from '../components/Stories'
 
 
 
@@ -16,7 +17,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Tiptap />
+        {/* <Tiptap /> */}
+        <MyStories />
       </main>
 
       <footer className={styles.footer}>
